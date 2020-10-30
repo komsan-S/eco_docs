@@ -8,11 +8,13 @@ The template can be used as guideline in building documentation for projects, wh
 * Sphinx-doc provide write once, output many format, i.e., html, slides, pdf (still problem with Thai), epub, etc.
 * Sphinx-doc is also a widely used for opensource project, including Odoo. It is good to learn anyway. :)
 
+**Note:** A good sample of .rst to follow -> https://github.com/kmee/oca-days-2020-odoo-developer/blob/docs/docs/index.rst
+
 ## Configuration
 
 1. Install hieroglyph and sphinx-doc
     ```
-    $ pip install hieroglyph
+    $ pip3 install hieroglyph
     ```
    **Note:** Hieroglyph supports Sphinx 2.4 and later, and Python 3.7 and later.
 2. Copy `docs` into your $PROJECT folder
